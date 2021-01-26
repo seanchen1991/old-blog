@@ -8,8 +8,6 @@ My interests have since shifted towards systems programming, data structures, op
 
 My current programming language infatuation is [Rust](rust), though I also really enjoy branching out and learning about different programming languages and what makes them tick. [Haskell](haskell) and [Idris](idris) anyone?
 
-Some projects I've been involved with:
-
 ## Resume
 
 You can look me up on [GitHub][gh] to see examples of my work/what I'm interested in.
