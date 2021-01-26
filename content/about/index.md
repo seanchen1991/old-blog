@@ -10,9 +10,6 @@ My current programming language infatuation is [Rust](rust), though I also reall
 
 Some projects I've been involved with:
 
-- [exercism.io](exercism) is a platform that brings together students who are seeking to level up their skills in particular programming languages, and mentors who are experienced in those programming languages, giving both parties a streamlined way to provide feedback to one another. I'm helping to work on their Rust curriculum.
-- [Pijama](pijama) is a functional programming language currently in very early stages of development. It's not intended to become a "serious" programming language, but it's real enough to grant me a front-row seat into seeing how real programming languages are created. 
-
 ## Resume
 
 You can look me up on [GitHub][gh] to see examples of my work/what I'm interested in.
