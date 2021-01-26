@@ -1,0 +1,45 @@
+baseurl = "https://seanchen1991.github.io"
+languagecode = "en-us"
+defaultcontentlanguage = "en"
+title = "Sean Chen's Blog"
+
+paginate = 20
+canonifyurls = true
+theme = "hugo-coder"
+commit = "https://github.com/seanchen1991/blog/tree"
+publishDir = "seanchen1991.github.io"
+
+enableEmoji = true
+pygmentsstyle = "friendly"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Sean Chen"
+    info = "I write about teaching, Rust, and sometimes teaching Rust"
+    description = "A place to document my thoughts on teaching, learning, and open source"
+    keywords = "blog,personal,developer,teacher"
+    avatarurl = "img/me.jpg"
+    custom_css = ["css/master.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/seanchen1991"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/seanchen1991"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
