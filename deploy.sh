@@ -8,7 +8,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Build the project
 hugo -t hugo-coder
 
-cd seanchen1991.github.io
+cd public/seanchen1991.github.io
 
 git add .
 
