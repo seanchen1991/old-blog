@@ -161,6 +161,7 @@ pub struct Entry<T> {
 	prev: usize,
 	/// Index of the next entry in the cache
 	next: usize,
+}
 ```
 
 Next, our `LRUCache` type, which is responsible for storing an array of `Entry`s, as well as `head` and `tail` indices where the most-recently-used and least-recently-used `Entry`s are stored, respectively. The array will have a fixed size that can be specified when the `LRUCache` is initialized. Rust’s vanilla `array` [type][array] doesn’t actually satisfy this requirement ([yet][const-generics]), so we’ll need to import a crate that provides us with this capability, namely the `ArrayVec` [crate][arrayvec].
