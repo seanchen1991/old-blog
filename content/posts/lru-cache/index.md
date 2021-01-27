@@ -9,7 +9,8 @@ tags:
 ---
 
 {{% notice note %}}
-This post assumes familiarity with traits in Rust. If you aren’t familiar with them, I’d recommend reading more about them. The [chapter][traits-chapter] in the official Rust book is as good a place as any 🙂
+This post assumes familiarity with traits in Rust. If you aren’t familiar with them, I’d recommend reading more about them. The [chapter](https://docs.rust-lang.org/book/ch10-02-traits.html)
+in the official Rust book is as good a place as any 🙂
 {{% /notice %}}
 
 LRU caches are one of my favorite data structures to teach. One way of implementing an LRU cache (in Python, the language that I teach in) requires combining two separate data structures: a hash map in order to enable efficient access via hashing of keys, and a doubly-linked list in order to maintain the ordering of cache elements. 
