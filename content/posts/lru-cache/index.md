@@ -628,6 +628,7 @@ I hope you had fun learning about LRU caches as well! 🙂
 [array-trait]: https://docs.rs/arrayvec/0.5.2/arrayvec/trait.Array.html
 [arrayvec]: https://docs.rs/arrayvec/0.5.2/arrayvec/
 [arrayvec-docs]: https://docs.rs/arrayvec/0.5.2/arrayvec/struct.ArrayVec.html
+[const-generics]: https://doc.rust-lang.org/nightly/reference/items/generics.html#const-generics
 [fnmut-docs]: https://doc.rust-lang.org/std/ops/trait.FnMut.html
 [python-impl]: https://github.com/seanchen1991/python-lru/blob/main/src/lru_cache.py 
 [rust-impl]: https://github.com/seanchen1991/rust-data-structures/blob/master/lru/src/lib.rs
