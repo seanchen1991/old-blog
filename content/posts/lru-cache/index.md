@@ -181,14 +181,15 @@ Then in `src/lib.rs`:
 use arrayvec::ArrayVec;
 
 pub struct LRUCache {
-  /// Our `ArrayVec` will be storing `Entry`s 
-  entries: ArrayVec<Entry>,
-  /// Index of the first entry in the cache
-  head: usize,
-  /// Index of the last entry in the cache
-  tail: usize,
-  /// The number of entries in the cache
-  length: usize,
+	/// Our `ArrayVec` will be storing `Entry`s 
+	entries: ArrayVec<Entry>,
+	/// Index of the first entry in the cache
+	head: usize,
+	/// Index of the last entry in the cache
+	tail: usize,
+	/// The number of entries in the cache
+	length: usize,
+}
 ```
 
 If you try compiling what we have so far with `cargo build`, you should get an error like this:
@@ -234,6 +235,7 @@ pub struct LRUCache<A: Array> {
 	head: usize,
 	tail: usize,
 	length: usize,
+}
 ```
 
 With these changes in place, our code should compile successfully! 
@@ -282,6 +284,7 @@ struct IterMut<‘a, A: ‘a + Array> {
 	cache: &’a mut LRUCache<A>,
 	pos: usize,
 	done: bool,
+}
 ```
 
 Our `IterMut` struct needs a mutable reference to our cache itself so that mutable references can be handed out from it. This mutable reference to the cache needs to be valid for at least as long as the `LRUCache` itself is valid, which is what the `‘a` lifetime is specifying. 
