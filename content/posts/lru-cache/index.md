@@ -70,6 +70,7 @@ Additionally, if it turns out the cache is already at max capacity, we’ll need
 			# touch this entry to move it to the head of 
 			# the linked list
 			self.touch(entry)
+			return
 			
 		# check if our cache is at max capacity to see
 		# if we need to evict the oldest entry 
